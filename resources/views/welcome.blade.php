@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Document</title>
+    <title>Calculadora</title>
     @vite('resources/css/app.css')
     @livewireStyles
 </head>
 <body>
+<div class="bg-gray-800">
     <livewire:calculator/>
-
-    @livewireScripts
+</div>
+@livewireScripts
 </body>
 </html>
